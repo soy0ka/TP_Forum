@@ -1,0 +1,7 @@
+node_modules
+.env
+app.js
+config.json
+firebase.json
+package-lock.json
+commands/help.js

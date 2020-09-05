@@ -1,0 +1,8 @@
+{
+    "token":"your_token_goes_here",
+    "prefix":"%",
+    "allowed_guild":["guild_id"],
+    "teampastel":["user_id"],
+    "webhook_id":"",
+    "webhook_token":""
+}

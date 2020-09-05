@@ -1,0 +1,30 @@
+{
+  "name": "teampastel-forum-bot",
+  "version": "1.0.0",
+  "description": "A discord bot that wirtten by javascript to administrate the forum",
+  "main": "index.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord": "^0.8.2",
+    "discord-canvas": "^1.3.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.18.0",
+    "firebase-admin": "^9.1.0",
+    "fs": "0.0.1-security",
+    "js": "^0.1.0",
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "discord.js",
+    "teampastel",
+    "javascript",
+    "discord bot"
+  ],
+  "author": "Muzihuzi",
+  "license": "GPL-3.0"
+}
