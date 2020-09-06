@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args,db) => {
       client.users.fetch(database.data().user_id).then(user =>{
         let search_data_CLOSED = new Discord.MessageEmbed()
         .setColor('#ff0000')
-        .setTitle(`🎫티켓 조회 시스템\u200B\u200B\u200B\u200B\n티켓 고유번호 : ${search_query}`)
+        .setTitle(`[CLOSED] 🎫티켓 조회 시스템\u200B\u200B\u200B\u200B\n티켓 고유번호 : ${search_query}`)
         .setAuthor(user.username + '#' + user.discriminator, user.displayAvatarURL())
         .setDescription(`🔐비밀보장을 위해 DM으로 티켓을 전송합니다🔐`)
         .addFields(
@@ -36,7 +36,7 @@ module.exports.run = async (client, message, args,db) => {
       client.users.fetch(database.data().user_id).then(user =>{
         let search_data_OPEN = new Discord.MessageEmbed()
         .setColor('#29e39c')
-        .setTitle(`🎫티켓 조회 시스템\u200B\u200B\u200B\u200B\n티켓 고유번호 : ${search_query}`)
+        .setTitle(`[OPEN] 🎫티켓 조회 시스템\u200B\u200B\u200B\u200B\n티켓 고유번호 : ${search_query}`)
         .setAuthor(user.username + '#' + user.discriminator, user.displayAvatarURL())
         .setDescription(`🔐비밀보장을 위해 DM으로 티켓을 전송합니다🔐`)
         .addFields(

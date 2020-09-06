@@ -1,25 +1,24 @@
-const Discord = require('discord.js')
-const fs = require('fs')
-const Canvas = require('discord-canvas')
-const { token, prefix, allowed_guild, teampastel , webhook_id , webhook_token } = require('./config.json')
-const client = new Discord.Client()
+const Discord = require("discord.js");
+const fs = require("fs");
+const { token, prefix, allowed_guild, teampastel , webhook_id , webhook_token } = require("./config.json");
+const client = new Discord.Client();
 const webhook = new Discord.WebhookClient(webhook_id, webhook_token);
 
 client.commands = new Discord.Collection();
 client.aliases =  new Discord.Collection();
 
-const firebase = require('firebase/app');
-const FieldValue = require('firebase-admin').firestore.FieldValue;
-const admin = require('firebase-admin');
-const serviceAccount = require('./firebase.json');
+const firebase = require("firebase/app");
+const FieldValue = require("firebase-admin").firestore.FieldValue;
+const admin = require("firebase-admin");
+const serviceAccount = require("./firebase.json");
 
 admin.initializeApp({
     credential : admin.credential.cert(serviceAccount)
-})
+});
 
 const db = admin.firestore();
 
-fs.readdir('./commands/', (err,files) => {
+fs.readdir("./commands/", (err,files) => {
     if (err) {
         console.log(err);
     }

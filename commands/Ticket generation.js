@@ -83,5 +83,5 @@ module.exports.run = async (client, message, args,db,tp,webhookClient) => {
 
 module.exports.help = {
     name : "티켓",
-    aliases: ['티켓열기', 'Ticket', 'Ticketopen']
+    aliases: ['티켓열기', 'Ticket', 'Ticketopen', '생성']
 }
