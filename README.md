@@ -23,12 +23,12 @@ A bot for purpose of managing the Teampastel forum
 1. `node index` 를 입력해 작동시킵니다
 
 ## English
-> 팀파스텔 포럼 관리봇
+> Teampastel forum management bot
 
-### 설치 방법
+### installation method
 
 
-#### 공통 환경
+#### common environment (Linux & Windows)
 1. download this repository
 1. create `./config.json` file, referencing `./config-example.json`
 1. install [Node.js](https://nodejs.org/ko/)(version 12 or higher). you sould install with [npm](https://www.npmjs.com/).
