@@ -33,7 +33,7 @@ A bot for purpose of managing the Teampastel forum
 1. create `./config.json` file, referencing `./config-example.json`
 1. install [Node.js](https://nodejs.org/ko/)(version 12 or higher). you sould install with [npm](https://www.npmjs.com/).
 1. type `npm install` to download dependence
-1. typw `node index` to start the bot
+1. type `node index` to start the bot
 
 ### 라이선스 (License)
 - GNU 3.0
