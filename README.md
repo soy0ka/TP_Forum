@@ -9,6 +9,14 @@ A bot for purpose of managing the Teampastel forum
 - OS
 	* 모두 지원
 
+## Requirements
+|Name|Version|Tested|
+|:---|:---|:---|
+|Windows|Windows 10 1909|✔️(Development)|
+|Linux|ubuntu 18.04 |✔️(Production)|
+|Node.js|v.12.18.2|✔️|
+|NPM|6.14.5|✔️|
+
 ## 한국어
 > 팀파스텔 포럼 관리봇
 
