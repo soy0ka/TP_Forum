@@ -14,7 +14,7 @@ A bot for purpose of managing the Teampastel forum
 |:---|:---|:---|
 |Windows|Windows 10 1909|✔️(Development)|
 |Linux|ubuntu 18.04 |✔️(Production)|
-|Node.js|v.12.18.2|✔️|
+|Node.js|v.12.2.0 or higher|✔️|
 |NPM|6.14.5|✔️|
 
 ## 한국어
