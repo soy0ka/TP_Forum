@@ -1,8 +1,8 @@
 # TP_Forum
-A bot for purpose of managing the Teampastel forum
+A bot for purpose of managing the Teampastel(onde) forum
 #### [enter discord server](https://discord.gg/Jz6pmBh)
-- Made by [Muzihuzi](https://github.com/Muzihuzi)
-- discord : !낌새#6643
+- Made by [soy0ka](https://github.com/soy0ka)
+- discord : 
 - Languages
 	* [한국어](#한국어)
   * [English](#English)
